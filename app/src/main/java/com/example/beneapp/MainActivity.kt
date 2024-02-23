@@ -96,8 +96,6 @@ fun BeneList(beneficiaries: JSONArray, modifier: Modifier = Modifier) {
                     ctx.startActivity(detailsIntent)
                 }
             ) {
-
-
                 Text(
                     text = "$firstName $lastName",
                     fontSize = 20.sp,
